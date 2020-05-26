@@ -7,8 +7,11 @@ var loadState = {
          font: '30px Courier',
          fill: '#ffffff'
       });
-
-      // load all assets
+    game.load.image("Bee", "assets/bee.png");
+    game.load.image("Ant", "assets/ant.png");
+    game.load.image("Snail", "assets/snail.png");
+    
+          // load all assets
    },
 
    create: function() {
